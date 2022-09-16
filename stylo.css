@@ -205,9 +205,7 @@ textarea{
 
 
 .pagos{
-  background:
   margin: 20px 0px 20px 0px;
-
 }
 
 .pagos img {
@@ -330,7 +328,7 @@ background-image: linear-gradient(to top, rgb(70, 158, 149), rgb(227, 236, 235) 
 }
 
 
-@media screem and (min-width 490 px)and (max-width 768pc) {
+@media screem and (min-width 420 px)and (max-width 768pc) {
 
   .cuerpo {
     grid-template-areas:
