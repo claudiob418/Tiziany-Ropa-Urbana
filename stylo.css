@@ -38,9 +38,9 @@ header {
   grid-area: logo;
 }
 
-.cabecera__logo {
-  display: flex;
-}
+
+
+
 
 .cabecera1 {
   display: flex;
@@ -49,25 +49,47 @@ header {
   align-items: center;
 }
 
-.cabecera1 h1 {
-  font-size: 1.5cm;
+
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 6rem;
   font-style: italic;
+  font-weight: bolder;
+  color: rgb(70, 170, 160);
+ 
 }
 
-.cabecera1 h2 {
-  font-size: 1cm;
+
+h2{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 3rem;
   font-style: italic;
+  font-weight: bolder;
 }
 
-.cabecera1 h3 {
-  font-size: 1cm;
+h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2rem;
   font-style: italic;
+  font-weight: bolder;
+}
+.card-text{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 0.9rem;
+  font-style: italic;
+  font-weight: bolder;
 
 }
+
+
 
 .cabecera__links {
   grid-area: barra;
 }
+
+
+
+
 
 .cabecera__links ul {
   display: flex;
@@ -84,26 +106,27 @@ header {
 }
 
 .cabecera__links ul li {
-  padding: 12px;
+  padding: 10px;
 }
+
+
+
 
 .cabecera__links {
   background-color: rgb(70, 170, 160);
-  margin-block-end: 50px;
   color: aliceblue;
   grid-area: barra;
 }
 
 .cabecera__links li:hover {
   background-color: dimgrey;
-  height: 50%;
   border-radius: 5px;
 }
 
 main {
   grid-area: producto;
 }
-
+/*
 .producto__img {
   display: flex;
   flex-wrap: wrap;
@@ -114,6 +137,7 @@ main {
   padding-top: 10px;
 
 }
+*/
 
 .cuerpo__categorias__links ul {
   display: flex;
@@ -226,20 +250,6 @@ background-image: linear-gradient(to top, rgb(70, 158, 149), rgb(227, 236, 235) 
   color: rgb(109, 167, 161);
   border-radius: 5%;
 }
-
-
-.container {
-  max-width: 1500px;
-  margin: 2rem auto;
-}
-
-.galeria {
-  display: flex;
-  justify-content: center;
-  gap: 0.3cm;
-  flex-wrap: wrap;
-}
-
 
 .caja {
   display: flex;

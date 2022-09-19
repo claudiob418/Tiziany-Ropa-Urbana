@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
 
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +11,11 @@
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:ital,wght@0,300;1,400&display=swap"
     rel="stylesheet">
   <title>Tiziany Ropa Urbana</title>
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
   <link rel="shorcut icon" href="../imagen/1_5179519959549608081.png">
   <link rel="stylesheet" href="../stylo.css">
 </head>
@@ -22,47 +26,51 @@
 
 <body class="cuerpo">
 
+
   <header class="cabecera">
 
-    <div class="cabecera1">
+    <div class="container-text-center">
 
-      <h1>Tiziany Ropa Urbana</h1>
-      <h2>un lugar, muy cerca de tu casa donde encontraras calidez, simpatia, y lo nuevo de la temporada!!!</h2>
+      <div class="row">
 
+        <div class="col-sm-10">
+          <h1>Tiziany Ropa Urbana</h1>
+          <h2>un lugar, muy cerca de tu casa donde encontraras calidez, simpatia, y lo nuevo de la temporada!!!</h2>
+        </div>
+
+        <div class="col-sm-2"><img class="cabecera__logo" src="../imagen/1_5179519959549608081.png" alt="logo tiziany"
+            width="200px"></div>
+      </div>
 
     </div>
 
+
+    <nav class="cabecera__links">
+
+      <ul>
+        <li><a href="../index.html" target="inicio">Inicio</a></li>
+
+        <li><a href="./temporada.html" target="temporada">Temporada</a></li>
+
+        <li><a href="./loqueviene.html" target="lo que viene">Lo que viene</a></li>
+
+        <li><a href="./promociones.html" target="promociones">Promociones</a></li>
+
+        <li><a href="./discontinuos.html" target="discontinuados">Discontinuados</a></li>
+
+        <li><a href="./galeria.html" target="galeria">Galeria</a></li>
+
+        <li><a href="./contactanos.html" target="contactanos">Contactanos</a></li>
+
+      </ul>
+
+    </nav>
+
   </header>
-
-  <div class="logositio">
-
-    <img class="cabecera__logo" src="../imagen/1_5179519959549608081.png" alt="logo tiziany" width="200px">
-  </div>
-
-
-  <nav class="cabecera__links">
-    <ul>
-      <li><a href="../index.html" target="inicio">Inicio</a></li>
-
-      <li><a href="./temporada.html">Temporada</a></li>
-
-      <li><a href="./loqueviene.html" target="lo que viene">Lo que viene</a></li>
-
-      <li><a href="./promociones.html" target="promociones">Promociones</a></li>
-
-      <li><a href="./discontinuos.html" target="discontinuados">Discontinuados</a></li>
-
-      <li><a href="./galeria.html" target="galeria">Galeria</a></li>
-
-      <li><a href="./contactanos.html" target="contactanos">Contactanos</a></li>
-    </ul>
-  </nav>
-
-
 
   <main>
     <section class="cabecera1">
-      <h2>....No te lo pierdas!!!!!!!</h2><br>
+      <h2>....No te lo pierdas!!!!!!!</h2>
 
       <div class="cuerpo__categorias__temporada">
 
@@ -78,10 +86,6 @@
     </section>
 
   </main>
-
-
-
-
 
   <footer class="pieDePagina">
 
@@ -134,11 +138,12 @@
 
       <legend class="tePuedeInteresar">Te esperamos en;</legend>
 
-      <a href="https://goo.gl/maps/Ze5zeue8Sdp1fL4f6" target="ubicacion"></a>
+
 
       <section class="tePuedeInteresar1">
-
-        <img src="../imagen/logo Redes Sociales/ubicacion blanco y negro.png" width="55px" height="55px" alt="ubicacion">
+        <a href="https://goo.gl/maps/Ze5zeue8Sdp1fL4f6" target="ubicacion">
+          <img src="../imagen/logo Redes Sociales/ubicacion blanco y negro.png" width="55px" height="55px"
+            alt="ubicacion"></a>
 
 
         <p class="horarios">Ovidio Lagos 394 - B°General Paz -Cordoba-Argentina </p>
@@ -173,6 +178,11 @@
 
 
   </footer>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+    </script>
 
 </body>
 
