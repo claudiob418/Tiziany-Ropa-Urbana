@@ -68,156 +68,86 @@
 
   <main>
     <legend class="cabecera1">
-      <h3>Dejanos tus datos, estaremos en contacto, de todo lo lindo de la moda.</h3><br>
+      <h3>Dejanos tus datos, estaremos en contacto......</h3><br>
 
     </legend>
 
-
-
     <section>
+
 
       <div class="container text-center">
         <div class="row">
           <div class="col">
+
             <form action="/formulario" method="post">
-           
-                <legend class="tePuedeInteresar"> <h3>Datos Personales</h3>
 
-                </legend>
+              <fieldset>
 
-                <label class="formulario" for="nombre">Ingresa tu Nombre</label>
-              
-                <input type="texto" id="nombre" name="nombre" placeholder="Nombre">
-                
-                
-                <label class="formulario" for="apellido">Apellido</label>
-           
-                <input type="texto" id="Apellido" name="Apellido" placeholder="Apellido">
-             
-              
-                <label class="formulario" for="telefono">Telefono</label>
-                
-                <input type="number" id="Telefono" name="Telefono" placeholder="Telefono">
-              
-                
-                <label class="formulario" for="nombre">E-mail</label>
-                
-                <input type="e-mail" id="e-mail" name="e-mail" placeholder="E-mail">
-                
-                
-                <label class="formulario" for="fechadenacimiento">Fecha de Cumpleaños</label>
-                
-                <input type="texto" id="fechadecumpleaños" name="fecha de cumpleaños" placeholder="Fecha">
-                
-                
-                <label class="formulario" for="comentario">Dejanos tu Comentario</label>
-                
-                <textarea name="comentario" id="comentario" placeholder="AQUI"></textarea>
-                <button type="button" class="btn btn-secondary">ENVIAR</button>
-                <button type="submit">ENVIAR</button>
-                <button type="reset">CANCELAR</button>
-                <button type="#">MAS INFO</button>
-            
+                <div class="mb-3">
 
+                  <label class="formulario" for="nombre">Ingresa tu Nombre y Apellido</label>
+                  <input class="form-control" type="text" placeholder="Nombre y Apellido"
+                    aria-label="default input example">
+
+                  <label class="formulario" for="telefono">Telefono</label>
+                  <input class="form-control" type="text" placeholder="Telefono" aria-label="default input example">
+
+                  <label class="formulario" for="cumpleaños">Fecha de tu Cumpleaños</label>
+                  <input class="form-control" type="date format dd/mm/yyy" placeholder="Cumpleaños"
+                    aria-label="default input example">
+
+                  <label class="formulario" for="e-mail">e-mail</label>
+                  <input class="form-control" type="email" placeholder="e-mail" aria-label="default input example">
+
+                  <label class="formulario" for="comentario">Dejanos tu Comentario</label>
+                  <textarea class="form-control" type="text" placeholder="Comentario" aria-label="default input example"
+                    rows="2">
+                  </textarea>
+
+                  <div>
+                    <button type="button" class="btn btn-secondary btn-lg">Enviar
+
+                    </button>
+
+                  </div>
+
+                </div>
+              </fieldset>
             </form>
           </div>
-          
-          <div class="col"> 
+
+          <div class="col">
 
             <form action="/formulario" method="post">
 
-              <fieldset class="contactanos">
+              <fieldset>
 
+                <h3>Te Puede Interesar</h3>
 
-
-                <legend class="tePuedeInteresar"><h3>Informacion...</h3></legend><br>
+                <p class="formulario"><input class="tePuedeInteresar__chekbox" type="checkbox" checked>..Se la primera
+                  en conocer los Nuevos Ingresos de Temporada.</p>
                 
-                <p class="formulario"><input class="tePuedeInteresar__chekbox" type="checkbox" checked>..Recibir los
-                  Nuevos
-                  Ingresos de Temporada.</p>
-                <p class="formulario"><input type="checkbox" checked>..Liquidaciones Especiales y Descuentos de Temporada.</p>
-                <p class="formulario"><input type="checkbox" checked>..Prendas Discontinuadas. </p>
-                <p class="formulario"><input type="checkbox" checked>..Sorteos.</p>
-                <p class="formulario"><input type="checkbox" checked>..Descuentos Especiales para el mes de tu Cumpleanos.
-                </p>
+                <p class="formulario"><input type="checkbox" checked>..Promociones y liquidaciones Especiales.</p><br>
                 
+                <p class="formulario"><input type="checkbox" checked>..Prendas discontinuadas a precios unicos.</p><br>
                 
-
+                <p class="formulario"><input type="checkbox" checked>..Sorteos durante todo el año.</p><br>
+              
+                <p class="formulario"><input type="checkbox" checked>..Descuentos especiales para tu Cumple..</p><br>
 
               </fieldset>
             </form>
           </div>
         </div>
-<section>
-
-  <legend class="cabecera1">
-    <h2>Dejanos tus datos, estaremos en contacto, de todo lo lindo de la moda.</h2>
-  </legend>
-  <br>
-  <form action="/formulario" method="post">
-    <fieldset class="contactanos">
-      <legend class="tePuedeInteresar">Datos Personales</legend>
-
-      <label class="formulario" for="nombre">Ingresa tu Nombre</label>
-      <br>
-      <input type="texto" id="nombre" name="nombre" placeholder="Nombre">
-      <br>
-      <br>
-      <label class="formulario" for="apellido">Ingresa tu Apellido</label>
-      <br>
-      <input type="texto" id="Apellido" name="Apellido" placeholder="Apellido">
-      <br>
-      <br>
-      <label class="formulario" for="telefono">Telefono</label>
-      <br>
-      <input type="number" id="Telefono" name="Telefono" placeholder="Telefono">
-      <br>
-      <br>
-      <label class="formulario" for="nombre">E-mail</label>
-      <br>
-      <input type="e-mail" id="e-mail" name="e-mail" placeholder="E-mail">
-      <br>
-      <br>
-      <label class="formulario" for="fechadenacimiento">Fecha de Cumpleaños</label>
-      <br>
-      <input type="texto" id="fechadecumpleaños" name="fecha de cumpleaños" placeholder="Fecha">
-      <br>
-      <br>
-    </fieldset>
-    <br>
-    <br>
-    <fieldset class="contactanos"><br>
-
-
-
-      <legend class="tePuedeInteresar"> Te Puede Interesar</legend>
-      <br>
-      <p class="formulario"><input class="tePuedeInteresar__chekbox" type="checkbox" checked>..Recibir los Nuevos
-        Ingresos de
-        Temporada.</p> <br>
-      <p class="formulario"><input type="checkbox" checked>..Promociones Especiales.</p><br>
-      <p class="formulario"><input type="checkbox" checked>..Prendas Discontinuadas.</p><br>
-      <p class="formulario"><input type="checkbox" checked>..Sorteos.</p><br>
-      <p class="formulario"><input type="checkbox" checked>..Descuentos Especiales para el mes de tu Cumple.</p><br>
-      <br>
-      <label class="formulario" for="comentario">Dejanos tu Comentario</label>
-      <br>
-      <textarea name="comentario" id="comentario" placeholder="AQUI"></textarea>
-
-      <button type="submit">ENVIAR</button>
-      <button type="reset">CANCELAR</button>
-      <button type="#">MAS INFO</button>
-
       </div>
-    </fieldset>
-  </form>
-  <br>
+    </section>
 
-</section>
 
+    <section>
+      <div class="container text-center">
         <div class="row">
           <div class="col">
-            <div class="card" style="width: 35rem;">
+            <div class="card" style="width: 28rem;">
               <img src="../imagen/medios de pago/GIFT CARD 3.000.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h2 class="card-title">Regalá....GIFT CARD</h2>
@@ -233,7 +163,7 @@
           </div>
 
           <div class="col">
-            <div class="card" style="width: 35rem;">
+            <div class="card" style="width: 28rem;">
               <img src="../imagen/medios de pago/GIFT CARD 7.000.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h2 class="card-title">Regalá....GIFT CARD</h2>
@@ -249,7 +179,7 @@
           </div>
 
           <div class="col">
-            <div class="card" style="width: 35rem;">
+            <div class="card" style="width: 28rem;">
               <img src="../imagen/medios de pago/GIFT CARD 12.000.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h2 class="card-title">Regalá....GIFT CARD</h2>
@@ -264,14 +194,13 @@
             </div>
           </div>
         </div>
-      </div>
-
+        <div>
     </section>
 
   </main>
 
 
-  <footer class="pieDePagina"><br>
+  <footer >
 
     <nav class="cabecera__links">
 
