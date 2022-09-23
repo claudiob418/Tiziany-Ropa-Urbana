@@ -29,44 +29,78 @@
 
   <header class="cabecera">
 
-    <div class="container-text-center">
+    <div>
 
-      <div class="row">
-
-        <div class="col-sm-10">
-          <h1>Tiziany Ropa Urbana</h1>
-          <h2>un lugar, muy cerca de tu casa donde encontraras calidez, simpatia, y lo nuevo de la temporada!!!</h2>
-        </div>
-
-        <div class="col-sm-2"><img class="cabecera__logo" src="../imagen/1_5179519959549608081.png" alt="logo tiziany"
-            width="200px"></div>
-      </div>
-
+      <h1>Tiziany Ropa Urbana</h1>
+      <h2>un lugar, muy cerca de tu casa donde encontraras calidez, simpatia, y lo nuevo de la temporada!!!</h2>
     </div>
 
 
-    <nav class="cabecera__links">
 
-      <ul>
-        <li><a href="../index.html" target="inicio">Inicio</a></li>
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid" style="background-color: rgb(70, 158, 149)">
+        <a class="navbar-brand" href="../index.html"><img src="../imagen/1_5179519959549608081.png" alt=""
+            width="130rem"></a>
 
-        <li><a href="./temporada.html" target="temporada">Temporada</a></li>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-        <li><a href="./loqueviene.html" target="lo que viene">Lo que viene</a></li>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-        <li><a href="./promociones.html" target="promociones">Promociones</a></li>
+            <li class="nav-item fs-4">
+              <a class="nav-link text-white" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item fs-4">
+              <a class="nav-link text-white" href="./contactanos.html">Contacto</a>
+            </li>
+            <li class="nav-item fs-4">
+              <a class="nav-link text-white" href="./temporada.html">Temporada</a>
+            </li>
+            <li class="nav-item fs-4">
+              <a class="nav-link  text-white" href="./promociones.html">Promociones</a>
+            </li>
+            <li class="nav-item fs-4">
+              <a class="nav-link active text-white" href="./loqueviene.html">Lo que viene</a>
+            </li>
+            <li class="nav-item fs-4">
+              <a class="nav-link text-white" href="./galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item dropdown fs-4">
+              <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Prendas</a>
 
-        <li><a href="./discontinuos.html" target="discontinuados">Discontinuados</a></li>
+              <ul class="dropdown-menu text-bg-light p-3">
 
-        <li><a href="./galeria.html" target="galeria">Galeria</a></li>
+                <li><a class="dropdown-item fs-5" href="./galeria.html">Camisas, Remeras, Blusas.</a></li>
+                <li><a class="dropdown-item fs-5" href="./galeria.html">Pantalones, Jeans</a></li>
+                <li><a class="dropdown-item fs-5" href="./galeria.html">Sweters, Camperas</a></li>
+                <li><a class="dropdown-item fs-5" href="./galeria.html">Jogging, Buzos</a></li>
+                <li><a class="dropdown-item fs-5" href="./galeria.html">Accesorios</a></li>
+                <li><a class="dropdown-item fs-5" href="./galeria.html">Ver Todo</a></li>
 
-        <li><a href="./contactanos.html" target="contactanos">Contactanos</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item fs-5" href="./contactanos.html">Gift Card</a></li>
+              </ul>
+            </li>
 
-      </ul>
-
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 fs-5" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success fs-4 text-bg-secondary p-2 border border-white"
+              type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
     </nav>
 
+
   </header>
+
 
   <main>
     <section class="cabecera1">
@@ -127,32 +161,9 @@
 
 
           </div>
-
-
-          <div class="col-sm-4">
-
-            <ul class="list-group">
-
-              <li class="list-group"><a href="#" target="_blank">Remeras</a></li>
-              <li class="list-group"><a href="#" target="_blank">Camisas</a></li>
-              <li class="list-group"><a href="#" target="_blank">Blusas</a></li>
-              <li class="list-group"><a href="#" target="_blank">Pantalones</a></li>
-              <li class="list-group"><a href="#" target="_blank">Jeans</a></li>
-              <li class="list-group"><a href="#" target="_blank">Swetters</a></li>
-              <li class="list-group"><a href="#" target="_blank">Buzos</a></li>
-              <li class="list-group"><a href="#" target="_blank">Camperas</a></li>
-              <li class="list-group"><a href="#" target="_blank">Jogging</a></li>
-              <li class="list-group"><a href="#" target="_blank">Bolsos</a></li>
-              <li class="list-group"><a href="#" target="_blank">Accesorios</a></li>
-              <li class="list-group"><a href="#" target="_blank">Ver Todo</a></li>
-
-            </ul>
-            <div>
-              <iframe src="./promociones.html" frameborder="100rem"></iframe>
-            </div>
-          </div>
-          </nav>
         </div>
+        </nav>
+      </div>
       </div>
 
     </section>
@@ -164,26 +175,45 @@
 
   <footer>
 
-    <nav class="cabecera__links">
 
-      <ul>
-        <li><a href="../index.html" target="inicio">Inicio</a></li>
+    <section>
 
-        <li><a href="./temporada.html" target="temporada">Temporada</a></li>
+      <nav>
 
-        <li><a href="./loqueviene.html" target="lo que viene">Lo que viene</a></li>
+        <ul class="nav justify-content-center" style="background-color: rgb(70, 158, 149)">
 
-        <li><a href="./promociones.html" target="promociones">Promociones</a></li>
+          <li class="nav-item fs-4">
+            <a class="nav-link text-white " aria-current="page" href="../index.html">Inicio</a>
+          </li>
 
-        <li><a href="./contactanos.html" target="discontinuados">Discontinuados</a></li>
+          <li class="nav-item fs-4">
+            <a class="nav-link text-white" href="./contactanos.html">Contacto</a>
+          </li>
 
-        <li><a href="./galeria.html" target="galeria">Galeria</a></li>
+          <li class="nav-item fs-4">
+            <a class="nav-link text-white" href="./temporada.html">Temporada</a>
+          </li>
 
-        <li><a href="./contactanos.html" target="contactanos">Contactanos</a></li>
+          <li class="nav-item fs-4">
+            <a class="nav-link text-white" href="./promociones.html">Promociones</a>
+          </li>
 
-      </ul>
+          <li class="nav-item fs-4">
+            <a class="nav-link active text-white" aria-current="page" href="./loqueviene.html">Lo que viene</a>
+          </li>
 
-    </nav>
+          <li class="nav-item fs-4">
+            <a class="nav-link text-white" href="./galeria.html">Galeria</a>
+          </li>
+
+
+
+        </ul>
+
+      </nav>
+
+    </section>
+
 
     <section>
       <div class="row">
