@@ -63,8 +63,9 @@ h5 {
   color: black;
 
 }
-.letraw{
-color: white;
+
+.letraw {
+  color: white;
 
 }
 
@@ -157,6 +158,12 @@ nav li:hover {
 
 }
 
+
+.card-footer {
+  background-color: rgb(70, 170, 160)
+}
+
+
 main {
   margin: 1rem 0rem 2rem 0rem;
 
@@ -175,53 +182,10 @@ footer {
 .nav2 {
   margin: 10px
 }
-.card-footer{
-  background-color: rgb(70, 170, 160)
-
-}
 
 
 
-
-/*
-
-/*
-.cuerpo {
-  display: grid;
-  grid-template-areas:
-    "logo cabecera cabecera"
-    "barra barra barra"
-    "producto producto producto"
-    "producto producto producto"
-    "pieDePagina pieDePagina pieDePagina";
-  grid-template-columns: auto 1fr 1fr;
-  grid-template-rows: repeat (5, 1fr);
-  column-gap: 10px;
-  row-gap: 10px;
-
-}
-
-header {
-  grid-area: cabecera;
-  text-align: center;
-}
-
-.logositio {
-  grid-area: logo;
-}
-
-.cabecera1 {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
-}
-*/
-
-
-
-
-.card-text{
+.card-text {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 1rem;
   font-style: italic;
@@ -261,15 +225,45 @@ header {
   border-radius: 5px;
 }
 
+
+
+/*
+.cuerpo {
+  display: grid;
+  grid-template-areas:
+    "logo cabecera cabecera"
+    "barra barra barra"
+    "producto producto producto"
+    "producto producto producto"
+    "pieDePagina pieDePagina pieDePagina";
+  grid-template-columns: auto 1fr 1fr;
+  grid-template-rows: repeat (5, 1fr);
+  column-gap: 10px;
+  row-gap: 10px;
+
+}
+
+header {
+  grid-area: cabecera;
+  text-align: center;
+}
+
+.logositio {
+  grid-area: logo;
+}
+
+.cabecera1 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
 main {
   grid-area: producto;
 
 }
 
-
-
-
-/*
 .producto__img {
   display: flex;
   flex-wrap: wrap;
@@ -280,12 +274,7 @@ main {
   padding-top: 10px;
 
 }
-*/
 
-
-
-
-/*
 .caja {
   display: flex;
   flex-direction: column;
@@ -350,6 +339,14 @@ main {
     flex-direction: column;
     align-items: center;
   }
+
+
+  .cabecera1 {
+    display: none;
+
+  }
+
+
 */
   .producto__img img {
     width: 200px;
@@ -357,22 +354,17 @@ main {
 
   }
 
-  .cabecera1 {
-    display: none;
-
-  }
 
   .pagos img {
     margin: 0%;
   }
 
 
-
-
+/*
 
   @media screem and (min-width 420 px)and (max-width 768pc) {
 
-    /*
+    
   .cuerpo {
     grid-template-areas:
       "logo cabecera"
@@ -386,19 +378,13 @@ main {
     row-gap: 0px;
   }
 
-
     .pieDePagina iframe {
       display: none;
     }
 
-
-
-
-
-*/
     .cabecera1 h3 {
       display: none;
 
     }
 
-  }
+  }*/
