@@ -68,7 +68,9 @@ h5 {
   color: white;
 
 }
-
+.letrad{
+  color: red;
+}
 
 .cuerpo__categorias__links ul {
   display: flex;
@@ -224,19 +226,15 @@ footer {
   background-color: dimgrey;
   border-radius: 5px;
 }
-.carrusellGaleria{
 
-
-
-}
 .carousel-inner{
 height: 8cm;
-margin-top: 2rem 1rem 1rem 1rem;
+margin-bottom: 2%;
 }
 
 
 
-
+e
 
 
 
