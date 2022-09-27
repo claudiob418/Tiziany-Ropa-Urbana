@@ -63,7 +63,6 @@ h5 {
   color: black;
 
 }
-
 .letraw {
   color: white;
 
@@ -106,12 +105,13 @@ nav li:hover {
   font: 16px sans-serif;
 }
 
-
+/*
 .tePuedeInteresar {
   font-style: italic;
   font-size: 0.7cm;
 
 }
+*/
 
 .formulario {
   font-weight: bold;
@@ -151,6 +151,15 @@ nav li:hover {
   border-radius: 5%;
 }
 
+.parrafoCard{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: bolder;
+  text-align: center;
+
+}
+
 .card-text-muted {
   color: rgb(109, 167, 161);
 }
@@ -160,11 +169,13 @@ nav li:hover {
 
 }
 
-
 .card-footer {
   background-color: rgb(70, 170, 160)
 }
+.card-body{
+  background-color: rgb(70, 170, 160)
 
+}
 
 main {
   margin: 1rem 0rem 2rem 0rem;
@@ -184,8 +195,6 @@ footer {
 .nav2 {
   margin: 10px
 }
-
-
 
 .card-text {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -234,7 +243,7 @@ margin-bottom: 2%;
 
 
 
-e
+
 
 
 
@@ -285,6 +294,19 @@ main {
   padding-top: 10px;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .caja {
   display: flex;
