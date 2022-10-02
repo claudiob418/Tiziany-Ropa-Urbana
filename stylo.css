@@ -7,9 +7,10 @@
 html {
   font-size: 62.5%;
 }
-body{
-  background: 
-url("imagen/variostiziany/fondo\ negro\ y\ gris.jpg");
+
+body {
+  background:
+    url("imagen/variostiziany/fondo\ negro\ y\ gris.jpg");
 
 }
 
@@ -40,6 +41,17 @@ h2 {
   text-align: center;
   color: white;
 }
+
+
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+}
+
 
 h3 {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -72,13 +84,21 @@ h5 {
   color: black;
 
 }
+
 .letraw {
   color: white;
 
 }
-.letrad{
+
+.letrad {
   color: red;
 }
+
+.letrag {
+  color: rgb(70, 170, 160);
+}
+
+
 
 .cuerpo__categorias__links ul {
   display: flex;
@@ -162,7 +182,7 @@ nav li:hover {
   border-radius: 5%;
 }
 
-.parrafoCard{
+.parrafoCard {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 1.5rem;
   font-style: italic;
@@ -183,9 +203,9 @@ nav li:hover {
 .card-footer {
   background-color: rgb(70, 170, 160)
 }
-.card-body{
-  background-color: rgb(70, 170, 160)
 
+.card-body {
+  background-color: rgb(70, 170, 160)
 }
 
 main {
@@ -204,7 +224,8 @@ footer {
 }
 
 .nav2 {
-  margin: 10px
+  margin: 10px;
+  padding-top: 10px;
 }
 
 .card-text {
@@ -244,19 +265,21 @@ footer {
 
 .cabecera__links li:hover {
   background-color: dimgrey;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .carousel-inner{
-height: 8cm;
-margin-bottom: 2%;
+  height: 470px;
+
+  margin-bottom: 2rem;
 }
 
+.mimate {
+  margin-bottom: 1%;
 
 
 
-
-
+}
 
 /*
 .cuerpo {
@@ -355,7 +378,7 @@ main {
   color: blue;
 }
 
-*/
+
 
 
 
@@ -391,7 +414,7 @@ main {
   }
 
 
-*/
+*
   .producto__img img {
     width: 200px;
     height: 300px;
