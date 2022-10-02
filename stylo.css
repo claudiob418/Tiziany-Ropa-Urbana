@@ -192,16 +192,6 @@ footer {
 
 }
 
-.footer-contacto {
-  margin-top: 3rem;
-
-}
-
-.nav2 {
-  margin: 10px;
-  padding-top: 10px;
-}
-
 .card-text {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 1rem;
@@ -242,7 +232,7 @@ footer {
   border-radius: 10px;
 }
 
-.carousel-inner{
+.carousel-inner {
 
 
   margin-bottom: 1%;
@@ -250,10 +240,14 @@ footer {
 
 .mimate {
   margin-bottom: 1%;
-margin-top: 1%;
+  margin-top: 1%;
 
 
 }
+
+.carousel  ancho: 640px; altura: 360px; }
+
+.carousel-inner> .item> img { ancho: 640px; altura: 360px; }
 
 /*
 .cuerpo {
