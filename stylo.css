@@ -7,24 +7,17 @@
 html {
   font-size: 62.5%;
 }
-body{
-  background: 
-url("imagen/variostiziany/fondo\ negro\ y\ gris.jpg");
 
-}
-
-
-
-/*
 body {
-  background: linear-gradient(rgba(255, 255, 255, 0.925),
-      rgba(241, 236, 236, 0.911)),
-    url("imagen/variostiziany/fondoparedgris.jpg");
+  background:
+    url("imagen/variostiziany/fondo\ negro\ y\ gris.jpg");
+
 }
-*/
+
+
 h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 6rem;
+  font-size: 5rem;
   font-style: italic;
   font-weight: bolder;
   color: rgb(70, 170, 160);
@@ -72,13 +65,21 @@ h5 {
   color: black;
 
 }
+
 .letraw {
   color: white;
 
 }
-.letrad{
+
+.letrad {
   color: red;
 }
+
+.letrag {
+  color: rgb(70, 170, 160);
+}
+
+
 
 .cuerpo__categorias__links ul {
   display: flex;
@@ -114,13 +115,6 @@ nav li:hover {
   font: 16px sans-serif;
 }
 
-/*
-.tePuedeInteresar {
-  font-style: italic;
-  font-size: 0.7cm;
-
-}
-*/
 
 .formulario {
   font-weight: bold;
@@ -162,7 +156,7 @@ nav li:hover {
   border-radius: 5%;
 }
 
-.parrafoCard{
+.parrafoCard {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 1.5rem;
   font-style: italic;
@@ -183,9 +177,9 @@ nav li:hover {
 .card-footer {
   background-color: rgb(70, 170, 160)
 }
-.card-body{
-  background-color: rgb(70, 170, 160)
 
+.card-body {
+  background-color: rgb(70, 170, 160)
 }
 
 main {
@@ -196,15 +190,6 @@ main {
 footer {
   text-align: center;
 
-}
-
-.footer-contacto {
-  margin-top: 3rem;
-
-}
-
-.nav2 {
-  margin: 10px
 }
 
 .card-text {
@@ -244,19 +229,24 @@ footer {
 
 .cabecera__links li:hover {
   background-color: dimgrey;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
-.carousel-inner{
-height: 8cm;
-margin-bottom: 2%;
+.carousel-inner {
+
+
+  margin-bottom: 1%;
+}
+
+.mimate {
+  margin-bottom: 1%;
+  margin-top: 1%;
+
+
 }
 
 
-
-
-
-
+.carousel-inner> .item> img { ancho: 640px; altura: 360px; }
 
 /*
 .cuerpo {
@@ -355,7 +345,7 @@ main {
   color: blue;
 }
 
-*/
+
 
 
 
@@ -391,7 +381,7 @@ main {
   }
 
 
-*/
+*
   .producto__img img {
     width: 200px;
     height: 300px;
