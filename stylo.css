@@ -182,6 +182,7 @@ nav li:hover {
   background-color: rgb(70, 170, 160)
 }
 
+
 main {
   margin: 1rem 0rem 2rem 0rem;
 
@@ -246,55 +247,6 @@ footer {
 }
 
 
-.carousel-inner> .item> img { ancho: 640px; altura: 360px; }
-
-/*
-.cuerpo {
-  display: grid;
-  grid-template-areas:
-    "logo cabecera cabecera"
-    "barra barra barra"
-    "producto producto producto"
-    "producto producto producto"
-    "pieDePagina pieDePagina pieDePagina";
-  grid-template-columns: auto 1fr 1fr;
-  grid-template-rows: repeat (5, 1fr);
-  column-gap: 10px;
-  row-gap: 10px;
-
-}
-
-header {
-  grid-area: cabecera;
-  text-align: center;
-}
-
-.logositio {
-  grid-area: logo;
-}
-
-.cabecera1 {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
-}
-
-main {
-  grid-area: producto;
-
-}
-
-.producto__img {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.producto__img img {
-  padding-top: 10px;
-
-}
 
 
 
@@ -303,47 +255,6 @@ main {
 
 
 
-
-
-
-
-
-
-.caja {
-  display: flex;
-  flex-direction: column;
-  gap: 0.3cm;
-  flex: 1 1 clamp(300px, 30%, 400px)
-}
-
-.caja__info {
-  display: flex;
-  flex-direction: column;
-  padding: 6rem;
-
-}
-
-.caja__titulo {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: medium;
-  color: black;
-
-
-}
-
-.caja__subtitulo {
-  margin-top: 06rem;
-  color: brown;
-  font-size: medium;
-
-
-}
-
-.caja__texto {
-  margin-top: 06rem;
-  font-size: medium;
-  color: blue;
-}
 
 
 
@@ -387,38 +298,14 @@ main {
     height: 300px;
 
   }
-
+*/
 
   .pagos img {
     margin: 0%;
   }
 
 
-/*
+*/
 
   @media screem and (min-width 420 px)and (max-width 768pc) {
 
-    
-  .cuerpo {
-    grid-template-areas:
-      "logo cabecera"
-      "barra barra"
-      "producto producto"
-      "producto producto"
-      "pieDePagina pieDePagina";
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat (5, 1fr);
-    column-gap: 0px;
-    row-gap: 0px;
-  }
-
-    .pieDePagina iframe {
-      display: none;
-    }
-
-    .cabecera1 h3 {
-      display: none;
-
-    }
-
-  }*/
