@@ -1,0 +1,26 @@
+.formulario {
+    font-weight: bold;
+    font: 0.4cm sans-serif;
+    color: white;
+}
+
+.horarios {
+    font-weight: bold;
+    font: 0.4cm sans-serif;
+    color: white;
+}
+
+.teEsperamos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    padding: 0.5cm;
+    color: white;
+}
+
+.formularioType {
+    height: 3rem;
+    width: 30rem;
+    color: white;
+}

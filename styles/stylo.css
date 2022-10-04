@@ -1,0 +1,162 @@
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 5rem;
+  font-style: italic;
+  font-weight: bolder;
+  color: rgb(70, 170, 160);
+  text-align: center;
+}
+
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+}
+
+h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+}
+
+h4 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+}
+
+h5 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+}
+
+.mimate {
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+.letrab {
+  color: black;
+}
+
+.letraw {
+  color: white;
+}
+
+.letrad {
+  color: red;
+}
+
+.letrag {
+  color: rgb(70, 170, 160);
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.cuerpo {
+  background: url("../imagen/variostiziany/fondo negro y gris.jpg");
+}
+
+nav li:hover {
+  background-color: rgba(195, 191, 191, 0.747);
+  border-radius: 5%;
+  font: 16px sans-serif;
+}
+
+main {
+  margin: 1rem 0rem 2rem 0rem;
+}
+
+.parrafoCard {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.card-text-muted {
+  color: rgb(109, 167, 161);
+}
+
+.card-body {
+  background-color: white;
+}
+
+.card-footer {
+  background-color: rgb(70, 170, 160);
+}
+
+.card-body {
+  background-color: rgb(70, 170, 160);
+}
+
+.card-text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.formulario {
+  font-weight: bold;
+  font: 0.4cm sans-serif;
+  color: white;
+}
+
+.horarios {
+  font-weight: bold;
+  font: 0.4cm sans-serif;
+  color: white;
+}
+
+.teEsperamos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  padding: 0.5cm;
+  color: white;
+}
+
+.formularioType {
+  height: 3rem;
+  width: 30rem;
+  color: white;
+}
+
+.pagos {
+  background-image: linear-gradient(to top, rgb(70, 158, 149), rgb(227, 236, 235));
+}
+
+.pagos img {
+  border: 1px solid;
+  color: rgb(109, 167, 161);
+  border-radius: 5%;
+}
+
+.contacto {
+  margin-top: 2px 0px 1px 0px;
+}/*# sourceMappingURL=stylo.css.map */
