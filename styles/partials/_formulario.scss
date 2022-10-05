@@ -1,12 +1,14 @@
 .formulario {
     font-weight: bold;
-    font: 0.4cm map-get($tipodeletra, tipodeletrafooter);
+    font-size: 0.4cm;
+    font-family: map-get($tipodeletra, tipodeletrafooter);
     color: $letraw;
 }
 
 .horarios {
     font-weight: bold;
-    font: 0.4cm $tipodeletrafooter;
+    font-size: 0.4cm;
+    font-family: map-get($tipodeletra, tipodeletrafooter);
     color: $letraw;
 }
 
