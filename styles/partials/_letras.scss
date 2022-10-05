@@ -1,50 +1,49 @@
-h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 5rem;
-    font-style: italic;
-    font-weight: bolder;
-    color: rgb(70, 170, 160);
-    text-align: center;
-}
-
-h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 3rem;
-    font-style: italic;
-    font-weight: bolder;
-    text-align: center;
-    color: white;
-}
-
 h3 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: $tipodeletra;
     font-size: 2rem;
     font-style: italic;
     font-weight: bolder;
     text-align: center;
-    color: white;
+    color:$letraw;
 }
 
 h4 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: $tipodeletra;
     font-size: 1.5rem;
     font-style: italic;
     font-weight: bolder;
     text-align: center;
-    color: white;
+    color: $letraw;
 }
 
 h5 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: $tipodeletra;
     font-size: 1rem;
     font-style: italic;
     font-weight: bolder;
     text-align: center;
-    color: white;
+    color: $letraw;
 }
     
 .mimate {
     margin-bottom: 1%;
     margin-top: 1%;
   
+}
+.letrab {
+    color: $letrab;
+
+}
+
+.letraw {
+    color: $letraw;
+
+}
+
+.letrad {
+    color: $letrad;
+}
+
+.letrag {
+    color: $gradienteverde;
 }

@@ -1,0 +1,12 @@
+.tituloh1 {
+    @extend %tituloh1h2;
+    font-size: 5rem;
+    color: $gradienteverde;
+  
+}
+
+.tituloh2 {
+    @extend %tituloh1h2;
+    font-size: 3rem;   
+    color: $letraw;
+}

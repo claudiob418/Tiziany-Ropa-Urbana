@@ -1,8 +1,8 @@
 @media screen and (max-width:420px) {
 
-
-
-
+.fixed {
+    display: none;
+}
 
 
 
@@ -16,6 +16,11 @@
 @media screen and (min-width 421px) and(max-width 1300px) {
 
 
+    .fixed {
+        display: none;
+    }
+    
+    
 
 
 

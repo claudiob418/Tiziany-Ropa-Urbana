@@ -8,19 +8,28 @@ html {
     font-size: 62.5%;
 }
 
+main {
+    margin: 1rem 0rem 2rem 0rem;
+
+}
+
 .cuerpo {
     background:
         url("../imagen/variostiziany/fondo\ negro\ y\ gris.jpg");
 
 }
 
-nav li:hover {
-    background-color: rgba(195, 191, 191, 0.747);
-    border-radius: 5%;
-    font: 16px sans-serif;
-}
+nav {
+    li {
+        
+        a {
 
-main {
-    margin: 1rem 0rem 2rem 0rem;
+            &:hover {
+                border-radius: 5%;
+                background-color: $colorhover;
+                font: 17px sans-serif;
+            }
+        }
 
+    }
 }

@@ -74,30 +74,22 @@ html {
   font-size: 62.5%;
 }
 
-.cuerpo {
-  background: url("../imagen/variostiziany/fondo negro y gris.jpg");
-}
-
-nav li:hover {
-  background-color: rgba(195, 191, 191, 0.747);
-  border-radius: 5%;
-  font: 16px sans-serif;
-}
-
 main {
   margin: 1rem 0rem 2rem 0rem;
 }
 
-.parrafoCard {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 1.5rem;
-  font-style: italic;
-  font-weight: bolder;
-  text-align: center;
+.cuerpo {
+  background: url("../imagen/variostiziany/fondo negro y gris.jpg");
+}
+
+nav li a:hover {
+  border-radius: 5%;
+  background-color: rgba(195, 191, 191, 0.747);
+  font: 17px sans-serif;
 }
 
 .card-text-muted {
-  color: rgb(109, 167, 161);
+  color: rgb(70, 170, 160);
 }
 
 .card-body {
@@ -115,6 +107,14 @@ main {
 .card-text {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1rem;
+  font-style: italic;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.parrafoCard {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.5rem;
   font-style: italic;
   font-weight: bolder;
   text-align: center;
@@ -148,13 +148,13 @@ main {
 }
 
 .pagos {
-  background-image: linear-gradient(to top, rgb(70, 158, 149), rgb(227, 236, 235));
+  background-image: linear-gradient(to top, rgb(70, 170, 160), rgb(227, 236, 235));
 }
 
 .pagos img {
   border: 1px solid;
-  color: rgb(109, 167, 161);
-  border-radius: 5%;
+  color: rgb(70, 170, 160);
+  border-radius: 5px;
 }
 
 .contacto {

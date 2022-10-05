@@ -1,13 +1,13 @@
 .formulario {
     font-weight: bold;
-    font: 0.4cm sans-serif;
-    color: white;
+    font: 0.4cm map-get($tipodeletra, tipodeletrafooter);
+    color: $letraw;
 }
 
 .horarios {
     font-weight: bold;
-    font: 0.4cm sans-serif;
-    color: white;
+    font: 0.4cm $tipodeletrafooter;
+    color: $letraw;
 }
 
 .teEsperamos {
@@ -16,11 +16,11 @@
     justify-content: center;
     align-items: stretch;
     padding: 0.5cm;
-    color: white;
+    color: map-get($colores, letraw);
 }
 
 .formularioType {
     height: 3rem;
     width: 30rem;
-    color: white;
+    color: map-get($colores, letraw);
 }

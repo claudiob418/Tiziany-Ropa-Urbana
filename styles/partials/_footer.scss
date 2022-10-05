@@ -1,12 +1,15 @@
 .pagos {
-    background-image: linear-gradient(to top, rgb(70, 158, 149), rgb(227, 236, 235));
+    background-image: linear-gradient(to top, $gradienteverde, $gradienteblanco);
 
 }
 
-.pagos img {
-    border: 1px solid;
-    color: rgb(109, 167, 161);
-    border-radius: 5%;
+.pagos {
+
+    img {
+        border: 1px solid;
+        color: map-get($colores, gradienteverde);
+        border-radius: 5px;
+    }
 }
 
 .contacto {
