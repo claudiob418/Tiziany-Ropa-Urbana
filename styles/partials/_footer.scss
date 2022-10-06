@@ -1,5 +1,5 @@
 .pagos {
-    background-image: linear-gradient(to top, $gradienteverde, $gradienteblanco);
+    background-image: linear-gradient(to top, map-get($colores , gradienteverde) , map-get($colores , gradienteblanco));
 
 }
 

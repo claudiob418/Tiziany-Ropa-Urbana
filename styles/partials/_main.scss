@@ -23,11 +23,26 @@
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    color: black;
-    background-color: black;
+    color: map-get($colores , letrab ) ;
+    background-color: map-get($colores , letrab ) ;
 }
 
 .containerMainGaleria {
+    img {
+        transition: all 1s;
+
+        &:hover {
+            transform: scale(1.5, 1.5);
+            cursor: pointer;
+        }
+    }
+}
+
+
+.containerMainDescuentos {
+    .col{
+        overflow: hidden;
+    }
     img {
         transition: all 1s;
 

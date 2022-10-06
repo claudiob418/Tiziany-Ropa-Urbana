@@ -1,8 +1,9 @@
 %tituloh1h2 {
+    font-family: map-get($letra , tipodeletras);
     font-size: 5rem;
-    color: $gradienteverde;
+    color: map-get($colores , gradienteverde );
     font-size: 3rem;
-    color: $letraw;
+    color: map-get($colores , letraw );
     text-align: center;
 
 }

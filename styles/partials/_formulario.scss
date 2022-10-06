@@ -1,15 +1,15 @@
 .formulario {
     font-weight: bold;
     font-size: 0.4cm;
-    font-family: map-get($tipodeletra, tipodeletrafooter);
-    color: $letraw;
+    font-family: map-get($letra, tipodeletrafooter);
+    color: map-get($colores ,letraw );
 }
 
 .horarios {
     font-weight: bold;
     font-size: 0.4cm;
-    font-family: map-get($tipodeletra, tipodeletrafooter);
-    color: $letraw;
+    font-family: map-get($letra, tipodeletrafooter);
+    color: map-get($colores ,letraw );
 }
 
 .teEsperamos {

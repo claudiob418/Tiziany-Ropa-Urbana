@@ -1,22 +1,22 @@
 .card-text-muted {
-    color: $gradienteverde;
+    color: map-get($colores , gradienteverde );
 }
 
 .card-body {
-    background-color: $letraw;
+    background-color: map-get($colores , letraw );
 
 }
 
 .card-footer {
-    background-color: $gradienteverde;
+    background-color: map-get($colores , gradienteverde );
 }
 
 .card-body {
-    background-color: $gradienteverde;
+    background-color: map-get($colores , gradienteverde );
 }
 
 .card-text {
-    font-family:$tipodeletra1;
+    font-family: map-get($letra , tipodeletras );
     font-size: 1rem;
     font-style: italic;
     font-weight: bolder;
@@ -24,7 +24,7 @@
 
 }
 .parrafoCard {
-    font-family: $tipodeletra1;
+    font-family: map-get($letra , tipodeletras );
     font-size: 1.5rem;
     font-style: italic;
     font-weight: bolder;
