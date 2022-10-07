@@ -1,0 +1,28 @@
+.formulario {
+    font-weight: bold;
+    font-size: 0.4cm;
+    font-family: map-get($letra, tipodeletrafooter);
+    color: map-get($colores ,letraw );
+}
+
+.horarios {
+    font-weight: bold;
+    font-size: 0.4cm;
+    font-family: map-get($letra, tipodeletrafooter);
+    color: map-get($colores ,letraw );
+}
+
+.teEsperamos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    padding: 0.5cm;
+    color: map-get($colores, letraw);
+}
+
+.formularioType {
+    height: 3rem;
+    width: 30rem;
+    color: map-get($colores, letraw);
+}

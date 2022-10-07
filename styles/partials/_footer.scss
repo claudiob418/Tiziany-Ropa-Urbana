@@ -1,0 +1,19 @@
+.pagos {
+    background-image: linear-gradient(to top, map-get($colores , gradienteverde) , map-get($colores , gradienteblanco));
+
+}
+
+.pagos {
+
+    img {
+        border: 1px solid;
+        color: map-get($colores, gradienteverde);
+        border-radius: 5px;
+    }
+}
+
+.contacto {
+    margin-top: 2px 0px 1px 0px;
+
+
+}

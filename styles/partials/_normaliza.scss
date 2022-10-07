@@ -1,0 +1,35 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    margin: 1rem 0rem 2rem 0rem;
+
+}
+
+.cuerpo {
+    background:
+        url("../imagen/variostiziany/fondo\ negro\ y\ gris.jpg");
+
+}
+
+nav {
+    li {
+        
+        a {
+
+            &:hover {
+                border-radius: 5%;
+                background-color:  map-get($colores , colorhover ) ;
+                font: 17px sans-serif;
+            }
+        }
+
+    }
+}

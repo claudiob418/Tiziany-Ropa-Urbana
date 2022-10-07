@@ -1,0 +1,218 @@
+.tituloh2, .tituloh1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 5rem;
+  color: rgb(70, 170, 160);
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2rem;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+}
+
+h4 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+}
+
+h5 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1rem;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+}
+
+.mimate {
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+.letrab {
+  color: black;
+}
+
+.letraw {
+  color: white;
+}
+
+.letrad {
+  color: red;
+}
+
+.letrag {
+  color: rgb(70, 170, 160);
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+main {
+  margin: 1rem 0rem 2rem 0rem;
+}
+
+.cuerpo {
+  background: url("../imagen/variostiziany/fondo negro y gris.jpg");
+}
+
+nav li a:hover {
+  border-radius: 5%;
+  background-color: rgba(195, 191, 191, 0.558);
+  font: 17px sans-serif;
+}
+
+.card-text-muted {
+  color: rgb(70, 170, 160);
+}
+
+.card-body {
+  background-color: white;
+}
+
+.card-footer {
+  background-color: rgb(70, 170, 160);
+}
+
+.card-body {
+  background-color: rgb(70, 170, 160);
+}
+
+.card-text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.parrafoCard {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.formulario {
+  font-weight: bold;
+  font-size: 0.4cm;
+  font-family: sans-serif;
+  color: white;
+}
+
+.horarios {
+  font-weight: bold;
+  font-size: 0.4cm;
+  font-family: sans-serif;
+  color: white;
+}
+
+.teEsperamos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  padding: 0.5cm;
+  color: white;
+}
+
+.formularioType {
+  height: 3rem;
+  width: 30rem;
+  color: white;
+}
+
+.carousel-inner {
+  width: 90%;
+  text-align: center;
+  margin: auto;
+}
+.carousel-inner img {
+  width: 100%;
+  text-align: center;
+  max-height: 90vh;
+  margin: auto;
+}
+
+.containerMainCarrusel button {
+  width: 15%;
+  text-align: center;
+  margin: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  color: black;
+  background-color: black;
+}
+
+.containerMainGaleria img {
+  transition: all 1s;
+}
+.containerMainGaleria img:hover {
+  transform: scale(1.5, 1.5);
+  cursor: pointer;
+}
+
+.containerMainDescuentos .col {
+  overflow: hidden;
+}
+.containerMainDescuentos .col .card {
+  transition: all 1s;
+}
+.containerMainDescuentos .col .card:hover {
+  transform: scale(1.1, 1.1);
+  cursor: pointer;
+}
+
+.pagos {
+  background-image: linear-gradient(to top, rgb(70, 170, 160), rgb(227, 236, 235));
+}
+
+.pagos img {
+  border: 1px solid;
+  color: rgb(70, 170, 160);
+  border-radius: 5px;
+}
+
+.contacto {
+  margin-top: 2px 0px 1px 0px;
+}
+
+.tituloh1 {
+  font-size: 5rem;
+  color: rgb(70, 170, 160);
+}
+
+.tituloh2 {
+  font-size: 3rem;
+  color: white;
+}
+
+@media screen and (max-width: 420px) {
+  .positionfixed,
+.tituloh1,
+.tituloh2 {
+    display: none;
+  }
+}
+@media screen and (min-width: 421px) and (max-width: 1300px) {
+  .fixed {
+    display: none;
+  }
+}/*# sourceMappingURL=stylo.css.map */
