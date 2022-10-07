@@ -1,20 +1,21 @@
 .carousel-inner {
-    width: 90%;
+    width: 80%;
     text-align: center;
     margin: auto;
 
     img {
         width: 100%;
         text-align: center;
-        max-height: 90vh;
+        max-height: 80vh;
         margin: auto;
+        
     }
 }
 
 .containerMainCarrusel {
     button {
 
-        width: 15%;
+        width: 27%;
         text-align: center;
         margin: auto;
 
@@ -23,8 +24,8 @@
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    color: map-get($colores , letrab ) ;
-    background-color: map-get($colores , letrab ) ;
+    color: map-get($colores , gradienteverde) ;
+    background-color: map-get($colores , gradienteverde ) ;
 }
 
 .containerMainGaleria {
@@ -37,7 +38,6 @@
         }
     }
 }
-
 
 .containerMainDescuentos {
     .col{
@@ -53,3 +53,4 @@
     }
 }
 }
+

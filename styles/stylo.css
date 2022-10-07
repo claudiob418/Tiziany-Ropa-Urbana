@@ -138,27 +138,27 @@ nav li a:hover {
 }
 
 .carousel-inner {
-  width: 90%;
+  width: 80%;
   text-align: center;
   margin: auto;
 }
 .carousel-inner img {
   width: 100%;
   text-align: center;
-  max-height: 90vh;
+  max-height: 80vh;
   margin: auto;
 }
 
 .containerMainCarrusel button {
-  width: 15%;
+  width: 27%;
   text-align: center;
   margin: auto;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  color: black;
-  background-color: black;
+  color: rgb(70, 170, 160);
+  background-color: rgb(70, 170, 160);
 }
 
 .containerMainGaleria img {
@@ -194,6 +194,14 @@ nav li a:hover {
   margin-top: 2px 0px 1px 0px;
 }
 
+.footerHover img {
+  transition: all 1s;
+}
+.footerHover img:hover {
+  transform: scale(1.5, 1.5);
+  cursor: pointer;
+}
+
 .tituloh1 {
   font-size: 5rem;
   color: rgb(70, 170, 160);
@@ -211,7 +219,7 @@ nav li a:hover {
     display: none;
   }
 }
-@media screen and (min-width: 421px) and (max-width: 1300px) {
+@media screen and (min-width: 421px) and (max-width: 1200px) {
   .fixed {
     display: none;
   }
