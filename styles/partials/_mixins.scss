@@ -1,3 +1,9 @@
-@mixin name {
-    
+@mixin boton($backColor, $colorText) {
+    padding: 10px;
+    border-radius: 05px;
+    color: $colorText;
+    background-color: $backColor;
+    border: 1px solid white;
+    width:auto;
+    font-size: 1.5rem;
 }

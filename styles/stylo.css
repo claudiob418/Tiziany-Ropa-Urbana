@@ -72,7 +72,7 @@ main {
 
 nav li a:hover {
   border-radius: 5%;
-  background-color: rgba(195, 191, 191, 0.558);
+  background-color: rgba(151, 150, 150, 0.558);
   font: 17px sans-serif;
 }
 
@@ -109,25 +109,14 @@ nav li a:hover {
 }
 
 .formulario {
-  font-weight: bold;
   font-size: 0.4cm;
-  font-family: sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   color: white;
 }
 
 .horarios {
-  font-weight: bold;
   font-size: 0.4cm;
   font-family: sans-serif;
-  color: white;
-}
-
-.teEsperamos {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: stretch;
-  padding: 0.5cm;
   color: white;
 }
 
@@ -220,7 +209,16 @@ nav li a:hover {
   }
 }
 @media screen and (min-width: 421px) and (max-width: 1200px) {
-  .fixed {
+  .positionfixed {
     display: none;
   }
+}
+.botonContacto {
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(70, 170, 160);
+  border: 1px solid white;
+  width: auto;
+  font-size: 1.5rem;
 }/*# sourceMappingURL=stylo.css.map */
