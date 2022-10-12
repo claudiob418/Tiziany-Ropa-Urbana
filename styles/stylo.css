@@ -62,18 +62,15 @@ html {
   font-size: 62.5%;
 }
 
-main {
-  margin: 1rem 0rem 2rem 0rem;
-}
-
 .cuerpo {
   background: url("../imagen/variostiziany/fondo negro y gris.jpg");
 }
 
 nav li a:hover {
-  border-radius: 5%;
+  border-radius: 5px;
   background-color: rgba(151, 150, 150, 0.558);
-  font: 17px sans-serif;
+  transition: all 0.5s;
+  border-bottom: solid white;
 }
 
 .card-text-muted {
@@ -127,14 +124,14 @@ nav li a:hover {
 }
 
 .carousel-inner {
-  width: 80%;
+  width: 100%;
   text-align: center;
   margin: auto;
 }
 .carousel-inner img {
   width: 100%;
   text-align: center;
-  max-height: 80vh;
+  max-height: 100vh;
   margin: auto;
 }
 
@@ -167,6 +164,10 @@ nav li a:hover {
 .containerMainDescuentos .col .card:hover {
   transform: scale(1.1, 1.1);
   cursor: pointer;
+}
+
+.containerMainloQueViene {
+  margin-top: 0rem;
 }
 
 .pagos {
@@ -207,13 +208,38 @@ nav li a:hover {
 .tituloh2 {
     display: none;
   }
+  .containerMainGaleria img {
+    transition: all 1s;
+  }
+  .containerMainGaleria img:hover {
+    transform: scale(1.5, 1.5);
+    cursor: pointer;
+  }
 }
 @media screen and (min-width: 421px) and (max-width: 1200px) {
   .positionfixed {
     display: none;
   }
+  .containerMainGaleria img {
+    transition: all 1s;
+  }
+  .containerMainGaleria img:hover {
+    transform: scale(1.5, 1.5);
+    cursor: pointer;
+    display: none;
+  }
 }
 .botonContacto {
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(70, 170, 160);
+  border: 1px solid white;
+  width: auto;
+  font-size: 1.5rem;
+}
+
+.botonnav {
   padding: 10px;
   border-radius: 5px;
   color: white;
