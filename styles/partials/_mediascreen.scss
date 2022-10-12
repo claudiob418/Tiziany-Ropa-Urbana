@@ -1,4 +1,4 @@
-@media screen and (max-width:420px) {
+@media screen and (max-width:319px) {
 
     .positionfixed,
     .tituloh1,
@@ -6,6 +6,18 @@
         display: none;
     }
 
+    .containerMainGaleria {
+        img {
+            transition: all 1s;
+            display: none;
+            &:hover {
+                transform: scale(1.5, 1.5);
+                cursor: pointer;
+                display: none;
+
+            }
+        }
+    }
 
 
 }
@@ -15,14 +27,27 @@
 
 
 
-@media screen and (min-width:421px) and(max-width: 1200px) {
+@media screen and (min-width:320px) and(max-width: 1200px) {
 
+    .positionfixed,
+    {
+    display: none;
+}
 
-    .fixed {
+.containerMainGaleria {
+    img {
+        transition: all 1s;
         display: none;
+        &:hover {
+            transform: scale(1.5, 1.5);
+            cursor: pointer;
+            display: none;
+        }
+
+
     }
 
-
+}
 
 
 

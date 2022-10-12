@@ -7,7 +7,7 @@
 
     img {
         border: 1px solid;
-        color: map-get($colores, gradienteverde);
+        color: map-get($colores , gradienteverde);
         border-radius: 5px;
     }
 }
@@ -16,4 +16,17 @@
     margin-top: 2px 0px 1px 0px;
 
 
+}
+
+
+.footerHover{
+    img {
+        transition: all 1s;
+      
+        &:hover {
+            transform: scale(1.5, 1.5);
+            cursor: pointer;
+           
+        }
+    }
 }

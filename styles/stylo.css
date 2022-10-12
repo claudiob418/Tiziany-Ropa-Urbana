@@ -62,18 +62,15 @@ html {
   font-size: 62.5%;
 }
 
-main {
-  margin: 1rem 0rem 2rem 0rem;
-}
-
 .cuerpo {
   background: url("../imagen/variostiziany/fondo negro y gris.jpg");
 }
 
 nav li a:hover {
-  border-radius: 5%;
-  background-color: rgba(195, 191, 191, 0.558);
-  font: 17px sans-serif;
+  border-radius: 5px;
+  background-color: rgba(151, 150, 150, 0.558);
+  transition: all 0.5s;
+  border-bottom: solid white;
 }
 
 .card-text-muted {
@@ -109,25 +106,14 @@ nav li a:hover {
 }
 
 .formulario {
-  font-weight: bold;
   font-size: 0.4cm;
-  font-family: sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   color: white;
 }
 
 .horarios {
-  font-weight: bold;
   font-size: 0.4cm;
   font-family: sans-serif;
-  color: white;
-}
-
-.teEsperamos {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: stretch;
-  padding: 0.5cm;
   color: white;
 }
 
@@ -138,27 +124,27 @@ nav li a:hover {
 }
 
 .carousel-inner {
-  width: 90%;
+  width: 100%;
   text-align: center;
   margin: auto;
 }
 .carousel-inner img {
   width: 100%;
   text-align: center;
-  max-height: 90vh;
+  max-height: 100vh;
   margin: auto;
 }
 
 .containerMainCarrusel button {
-  width: 15%;
+  width: 27%;
   text-align: center;
   margin: auto;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  color: black;
-  background-color: black;
+  color: rgb(70, 170, 160);
+  background-color: rgb(70, 170, 160);
 }
 
 .containerMainGaleria img {
@@ -180,6 +166,10 @@ nav li a:hover {
   cursor: pointer;
 }
 
+.containerMainloQueViene {
+  margin-top: 0rem;
+}
+
 .pagos {
   background-image: linear-gradient(to top, rgb(70, 170, 160), rgb(227, 236, 235));
 }
@@ -192,6 +182,14 @@ nav li a:hover {
 
 .contacto {
   margin-top: 2px 0px 1px 0px;
+}
+
+.footerHover img {
+  transition: all 1s;
+}
+.footerHover img:hover {
+  transform: scale(1.5, 1.5);
+  cursor: pointer;
 }
 
 .tituloh1 {
@@ -210,9 +208,43 @@ nav li a:hover {
 .tituloh2 {
     display: none;
   }
+  .containerMainGaleria img {
+    transition: all 1s;
+  }
+  .containerMainGaleria img:hover {
+    transform: scale(1.5, 1.5);
+    cursor: pointer;
+  }
 }
-@media screen and (min-width: 421px) and (max-width: 1300px) {
-  .fixed {
+@media screen and (min-width: 421px) and (max-width: 1200px) {
+  .positionfixed {
     display: none;
   }
+  .containerMainGaleria img {
+    transition: all 1s;
+  }
+  .containerMainGaleria img:hover {
+    transform: scale(1.5, 1.5);
+    cursor: pointer;
+    display: none;
+  }
+}
+.botonContacto {
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(70, 170, 160);
+  border: 1px solid white;
+  width: auto;
+  font-size: 1.5rem;
+}
+
+.botonnav {
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(70, 170, 160);
+  border: 1px solid white;
+  width: auto;
+  font-size: 1.5rem;
 }/*# sourceMappingURL=stylo.css.map */

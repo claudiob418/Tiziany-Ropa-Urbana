@@ -8,11 +8,6 @@ html {
     font-size: 62.5%;
 }
 
-main {
-    margin: 1rem 0rem 2rem 0rem;
-
-}
-
 .cuerpo {
     background:
         url("../imagen/variostiziany/fondo\ negro\ y\ gris.jpg");
@@ -21,13 +16,14 @@ main {
 
 nav {
     li {
-        
+
         a {
 
             &:hover {
-                border-radius: 5%;
-                background-color:  map-get($colores , colorhover ) ;
-                font: 17px sans-serif;
+                border-radius: 05px;
+                background-color: map-get($colores , colorhover);
+                transition: all 0.5s;
+                border-bottom: solid  white;
             }
         }
 
