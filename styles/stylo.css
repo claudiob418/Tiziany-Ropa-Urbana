@@ -32,8 +32,11 @@ h5 {
 }
 
 .mimate {
+  font-family: Georgia, "Times New Roman", Times, serif;
   margin-bottom: 1%;
   margin-top: 1%;
+  color: rgb(70, 170, 160);
+  font-size: 3rem;
 }
 
 .letrab {
@@ -50,6 +53,20 @@ h5 {
 
 .letrag {
   color: rgb(70, 170, 160);
+}
+
+.card-text-index {
+  font-family: "Times New Roman", Times, serif;
+  color: red;
+  font-size: 2rem;
+}
+
+.card-text-parrafo {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
 }
 
 * {
@@ -129,9 +146,9 @@ nav li a:hover {
   margin: auto;
 }
 .carousel-inner img {
-  width: 100%;
+  width: 80%;
   text-align: center;
-  max-height: 100vh;
+  max-height: 120vh;
   margin: auto;
 }
 
@@ -139,12 +156,6 @@ nav li a:hover {
   width: 27%;
   text-align: center;
   margin: auto;
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  color: rgb(70, 170, 160);
-  background-color: rgb(70, 170, 160);
 }
 
 .containerMainGaleria img {
@@ -210,10 +221,12 @@ nav li a:hover {
   }
   .containerMainGaleria img {
     transition: all 1s;
+    display: none;
   }
   .containerMainGaleria img:hover {
     transform: scale(1.5, 1.5);
     cursor: pointer;
+    display: none;
   }
 }
 @media screen and (min-width: 421px) and (max-width: 1200px) {
@@ -222,6 +235,7 @@ nav li a:hover {
   }
   .containerMainGaleria img {
     transition: all 1s;
+    display: none;
   }
   .containerMainGaleria img:hover {
     transform: scale(1.5, 1.5);
@@ -239,11 +253,11 @@ nav li a:hover {
   font-size: 1.5rem;
 }
 
-.botonnav {
+.boton2 {
   padding: 10px;
   border-radius: 5px;
   color: white;
-  background-color: rgb(70, 170, 160);
+  background-color: rgba(23, 104, 96, 0.493);
   border: 1px solid white;
   width: auto;
   font-size: 1.5rem;
