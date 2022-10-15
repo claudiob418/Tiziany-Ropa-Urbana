@@ -47,22 +47,3 @@ h5 {
 .letrag {
     color: map-get($colores , gradienteverde);
 }
-
-.card-text-index {
-    font-family: 'Times New Roman', Times, serif;
-    color: map-get($colores , letrad);
-    font-size: 2rem;
-
-
-}
-
-.card-text-parrafo{
-
-    font-family: map-get($letra , tipodeletras);
-    font-size: 1.5rem;
-    font-weight: bolder;
-    text-align: center;
-    color: map-get($colores , letraw);
-
-
-}

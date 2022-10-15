@@ -35,7 +35,7 @@
 
 .containerMainDescuentos {
     .col {
-        overflow: hidden;
+        overflow:initial;
 
         .card {
             transition: all 1s;
@@ -46,9 +46,4 @@
             }
         }
     }
-}
-
-.containerMainloQueViene {
-    margin-top: 0rem;
-
 }
