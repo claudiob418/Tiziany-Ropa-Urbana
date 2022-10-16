@@ -4,9 +4,9 @@
     margin: auto;
 
     img {
-        width: 100%;
+        width: 80%;
         text-align: center;
-        max-height: 100vh;
+        max-height: 120vh;
         margin: auto;
 
     }
@@ -21,11 +21,6 @@
     }
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    color: map-get($colores , gradienteverde);
-    background-color: map-get($colores , gradienteverde);
-}
 
 .containerMainGaleria {
     img {
@@ -40,7 +35,7 @@
 
 .containerMainDescuentos {
     .col {
-        overflow: hidden;
+        overflow:initial;
 
         .card {
             transition: all 1s;
@@ -51,9 +46,4 @@
             }
         }
     }
-}
-
-.containerMainloQueViene {
-    margin-top: 0rem;
-
 }

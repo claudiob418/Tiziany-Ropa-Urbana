@@ -2,9 +2,9 @@
 @include boton($backColor: rgb(70, 170, 160), $colorText: white);
 
 }
-.botonnav{
+.boton2{
 
-@include boton ($backColor: rgb(70, 170, 160), $colorText: white);
+@include boton($backColor: rgba(70,170,160), $colorText: white);
 
 
 }

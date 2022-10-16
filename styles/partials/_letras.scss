@@ -3,7 +3,7 @@ h3 {
     font-size: 2rem;
     font-weight: bolder;
     text-align: center;
-    color: map-get($colores , letraw );
+    color: map-get($colores , letraw);
 }
 
 h4 {
@@ -11,7 +11,7 @@ h4 {
     font-size: 1.5rem;
     font-weight: bolder;
     text-align: center;
-    color: map-get($colores , letraw );
+    color: map-get($colores , letraw);
 }
 
 h5 {
@@ -19,26 +19,29 @@ h5 {
     font-size: 1rem;
     font-weight: bolder;
     text-align: center;
-    color: map-get($colores , letraw );
+    color: map-get($colores , letraw);
 }
-    
+
 .mimate {
+    font-family: map-get($letra , tipodeletras);
     margin-bottom: 1%;
     margin-top: 1%;
-  
+    color: rgb(70, 170, 160);
+    font-size: 3rem;
 }
+
 .letrab {
-    color: map-get($colores , letrab );
+    color: map-get($colores , letrab);
 
 }
 
 .letraw {
-    color: map-get($colores , letraw );
+    color: map-get($colores , letraw);
 
 }
 
 .letrad {
-    color:  map-get($colores , letrad );
+    color: map-get($colores , letrad);
 }
 
 .letrag {

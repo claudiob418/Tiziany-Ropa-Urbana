@@ -2,11 +2,6 @@
     color: map-get($colores , gradienteverde );
 }
 
-.card-body {
-    background-color: map-get($colores , letraw );
-
-}
-
 .card-footer {
     background-color: map-get($colores , gradienteverde );
 }
@@ -29,5 +24,21 @@
     font-style: italic;
     font-weight: bolder;
     text-align: center;
+
+}
+
+.card-text-index {
+    font-family: 'Times New Roman', Times, serif;
+    color: map-get($colores , letrad);
+    font-size: 2rem;
+
+}
+
+.card-text-parrafo{
+    font-family: map-get($letra , tipodeletras);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: center;
+    color: map-get($colores , letraw);
 
 }
