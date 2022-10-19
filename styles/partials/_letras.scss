@@ -30,6 +30,14 @@ h5 {
     font-size: 3rem;
 }
 
+.mimate2 {
+    font-family: map-get($letra , tipodeletras);
+    margin-bottom: 1%;
+    margin-top: 1%;
+    color: rgb(70, 170, 160);
+    font-size: 1.5rem;
+}
+
 .letrab {
     color: map-get($colores , letrab);
 
