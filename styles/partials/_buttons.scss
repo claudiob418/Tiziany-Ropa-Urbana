@@ -1,10 +1,19 @@
-.botonContacto{
-@include boton($backColor: rgb(70, 170, 160), $colorText: white);
+.botonContacto {
+    @include boton($backColor: rgb(70, 170, 160), $colorText: white);
 
 }
-.boton2{
 
-@include boton($backColor: rgba(70,170,160), $colorText: white);
+.boton2 {
+
+    @include boton($backColor: rgba(70, 170, 160), $colorText: white);
+
+
+}
+
+.boton3 {
+
+    @include boton($backColor: rgba(133, 47, 32, 0.548), $colorText: white);
+
 
 
 }

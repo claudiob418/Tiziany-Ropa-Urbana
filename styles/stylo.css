@@ -39,6 +39,14 @@ h5 {
   font-size: 3rem;
 }
 
+.mimate2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  color: rgb(70, 170, 160);
+  font-size: 1.5rem;
+}
+
 .letrab {
   color: black;
 }
@@ -232,6 +240,16 @@ nav li a:hover {
   border-radius: 5px;
   color: white;
   background-color: rgb(70, 170, 160);
+  border: 1px solid white;
+  width: auto;
+  font-size: 1.5rem;
+}
+
+.boton3 {
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(133, 47, 32, 0.548);
   border: 1px solid white;
   width: auto;
   font-size: 1.5rem;
