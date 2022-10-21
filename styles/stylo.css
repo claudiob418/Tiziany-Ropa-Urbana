@@ -156,12 +156,6 @@ nav li a:hover {
   margin: auto;
 }
 
-.containerMainCarrusel button {
-  width: 27%;
-  text-align: center;
-  margin: auto;
-}
-
 .containerMainGaleria img {
   transition: all 1s;
 }
