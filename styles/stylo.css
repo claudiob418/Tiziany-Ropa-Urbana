@@ -149,7 +149,7 @@ nav li a:hover {
   margin: auto;
 }
 .carousel-inner img {
-  width: 80%;
+  width: 700%;
   text-align: center;
   max-height: 120vh;
   margin: auto;
@@ -161,6 +161,7 @@ nav li a:hover {
 .containerMainGaleria img:hover {
   transform: scale(1.5, 1.5);
   cursor: pointer;
+  z-index: 999 !important;
 }
 
 .containerMainDescuentos .col {
@@ -172,6 +173,7 @@ nav li a:hover {
 .containerMainDescuentos .col .card:hover {
   transform: scale(1.1, 1.1);
   cursor: pointer;
+  z-index: 999 !important;
 }
 
 .pagos {
