@@ -9,12 +9,12 @@
 }
 
 @mixin boton2($backColor, $colorText) {
-    padding: 10px;
+    padding: 2px;
     border-radius: 05px;
     background-color: $backColor;
     color: $colorText;
     border: 1px solid white;
-    width: 5px;
+    width: 1px;
     margin-left: 1px;
     margin-right: 1px;
     

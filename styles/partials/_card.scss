@@ -11,7 +11,7 @@
 }
 
 .card-text {
-    font-family: map-get($letra , tipodeletras );
+    font-family: map-get($letra , tipodeletrafooter );
     font-size: 1rem;
     font-style: italic;
     font-weight: bolder;
@@ -19,9 +19,8 @@
 
 }
 .parrafoCard {
-    font-family: map-get($letra , tipodeletras );
+    font-family: map-get($letra , tipodeletrafooter );
     font-size: 1.5rem;
-    font-style: italic;
     font-weight: bolder;
     text-align: center;
 
