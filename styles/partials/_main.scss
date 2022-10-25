@@ -4,7 +4,7 @@
     margin: auto;
 
     img {
-        width: 80%;
+        width: 700%;
         text-align: center;
         max-height: 120vh;
         margin: auto;
@@ -19,22 +19,22 @@
         &:hover {
             transform: scale(1.5, 1.5);
             cursor: pointer;
-           
+            z-index: 999 !important;
         }
     }
 }
 
-.containerMainDescuentos{
+.containerMainDescuentos {
     .col {
         overflow: initial;
-       
+
         .card {
             transition: all 1s;
-            
+
             &:hover {
                 transform: scale(1.1, 1.1);
                 cursor: pointer;
-                             
+                z-index: 999 !important;
             }
         }
     }
