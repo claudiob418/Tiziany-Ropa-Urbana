@@ -1,163 +1,360 @@
-.tituloh2, .tituloh1 {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 5rem;
-  color: rgb(70, 170, 160);
-  font-size: 3rem;
-  color: white;
-  text-align: center;
-}
-
-h3 {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 2rem;
-  font-weight: bolder;
-  text-align: center;
-  color: white;
-}
-
-h4 {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 1.5rem;
-  font-weight: bolder;
-  text-align: center;
-  color: white;
-}
-
-h5 {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 1rem;
-  font-weight: bolder;
-  text-align: center;
-  color: white;
-}
-
-.mimate {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  margin-bottom: 1%;
-  margin-top: 1%;
-  color: rgb(70, 170, 160);
-  font-size: 3rem;
-}
-
-.mimate2 {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  margin-bottom: 1%;
-  margin-top: 1%;
-  color: rgb(70, 170, 160);
-  font-size: 1.5rem;
-}
-
-.letrab {
-  color: black;
-}
-
-.letraw {
-  color: white;
-}
-
-.letrad {
-  color: red;
-}
-
-.letrag {
-  color: rgb(70, 170, 160);
-}
-
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
 }
 
-html {
-  font-size: 62.5%;
+body {
+  min-height: 100vh;
+  background: rgba(13, 36, 241, 0.726);
 }
 
-.cuerpo {
-  background: url("../imagen/variostiziany/fondo negro y gris.jpg");
+.hovermain{
+  transition: all 1s;
 }
 
-nav li a:hover {
-  border-radius: 5px;
-  background-color: rgba(151, 150, 150, 0.558);
-  transition: all 0.5s;
-  border-bottom: solid white;
-}
+.hovermain img:hover {
+  transform: scale(1,5 1,2);
+  cursor: pointer;
+} 
 
-.card-text-muted {
-  color: rgb(70, 170, 160);
-}
+.slide-text{
+  color: #fff;
+  font-size: 40px;
+  position: absolute;
+  top: 80%;
+  left: 2%;
+}    
 
-.card-footer {
-  background-color: rgb(70, 170, 160);
-}
 
-.card-body {
-  background-color: rgb(70, 170, 160);
-}
-
-.card-text {
-  font-family: sans-serif;
-  font-size: 1rem;
-  font-style: italic;
-  font-weight: bolder;
-  text-align: center;
-}
-
-.parrafoCard {
-  font-family: sans-serif;
-  font-size: 1.5rem;
-  font-weight: bolder;
-  text-align: center;
-}
-
-.card-text-index {
-  font-family: "Times New Roman", Times, serif;
-  color: red;
-  font-size: 2rem;
-}
-
-.card-text-parrafo {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 1.5rem;
-  font-weight: bolder;
-  text-align: center;
-  color: white;
-}
-
-.formulario {
-  font-size: 0.4cm;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: white;
-}
-
-.horarios {
-  font-size: 0.4cm;
-  font-family: sans-serif;
-  color: white;
-}
-
-.formularioType {
-  height: 3rem;
-  width: 30rem;
-  color: white;
-}
-
-.carousel-inner {
+.container {
+  position: relative;
   width: 100%;
-  text-align: center;
-  margin: auto;
+  height: 100vh;
+  overflow: hidden;
 }
-.carousel-inner img {
-  width: 700%;
-  text-align: center;
-  max-height: 120vh;
-  margin: auto;
+
+
+.footerHover {
+  background-image: linear-gradient(to top, rgba(13, 36, 241, 0.726), rgb(227, 236, 235));
+  padding-block: 2%;
+  margin-block: 2%;
+  margin-bottom: -80%;
 }
+
+.footerHover img {
+  transition: all 1s;
+}
+
+.footerHover img:hover {
+  transform: scale(1.5, 1.5);
+  cursor: pointer;
+} 
+
+/*
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: rgb(9, 74, 136);
+}
+
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  margin: 20px;
+}
+
+.card .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: .5s;
+}
+
+.card .front {
+  transform: perspective(600px) rotateY(0deg);
+  box-shadow: 0 5px 10px #000;
+}
+
+.card .front img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card .front h3 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  background: rgba(0,0,0,.4);
+  text-align: center;
+}
+
+.card .back {
+  transform: perspective(600px) rotateY(180deg);
+  background: rgb(3, 35, 54);
+  padding: 15px;
+  color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  box-shadow: 0 5px 10px #000;
+}
+
+.card .back .link {
+  border-top: solid 1px #f3f3f3;
+  height: 50px;
+  line-height: 50px;
+}
+
+.card .back .link a {
+  color: #f3f3f3;
+}
+
+.card .back h3 {
+  font-size: 30px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+.card .back p {
+  letter-spacing: 1px;
+} 
+
+.card:hover .front {
+  transform: perspective(600px) rotateY(180deg);
+}
+
+.card:hover .back {
+  transform: perspective(600px) rotateY(360deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+
+.login-box a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #fff);
+  animation: btn-anim2 1.5s linear infinite;
+  animation-delay: .375s
+}
+
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+
+.login-box a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #fff);
+  animation: btn-anim3 1.5s linear infinite;
+  animation-delay: .75s
+}
+/*
+@keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+/*
+.login-box a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #fff);
+  animation: btn-anim4 1.5s linear infinite;
+  animation-delay: 1.125s
+}
+
+@keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+
+  50%,
+  100% {
+    bottom: 100%;
+  }
+}
+
+.login-box p:last-child {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.login-box a.a2 {
+  color: #fff;
+  text-decoration: none;
+}
+
+.login-box a.a2:hover {
+  background: transparent;
+  color: #aaa;
+  border-radius: 5px;
+}
+
+
+/*
+.btn::after,
+.btn::before {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  transform: skew(90deg) translate(-50%, -50%);
+  position: absolute;
+  inset: 50%;
+  left: 25%;
+  z-index: -1;
+  transition: .5s ease-out;
+  background-color: red;
+}
+
+.btn::before {
+  top: -50%;
+  left: -25%;
+  transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.btn:hover::before {
+  transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.btn:hover::after {
+  transform: skew(45deg) translate(-50%, -50%);
+}
+
+.btn:hover {
+  color: rgb(25, 0, 255)
+}
+
+.btn:active {
+  filter: brightness(.7);
+  transform: scale(.98);
+}
+
+
+.card {
+  position: relative;
+  width: 220px;
+  height: 320px;
+  background: rgb(3, 40, 245);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: bold;
+  border-radius: 15px;
+  padding-top: 85%;
+  margin-top: 35%;
+  margin-bottom: 300%;
+}
+
+/*
+.card::before,
+.card::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: rgb(17, 1, 245);
+  transition: all 0.5s;
+}
+
+.card::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+
+}
+
+.card::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100% 0 15px;
+}
+
+.card:hover::before,
+.card:hover:after {
+  width: 100%;
+  height: 100%;
+
+  border-radius: 0px;
+  transition: all 1s;
+}
+
+.card:hover:after {
+  content: "obras";
+
+}
+
 
 .containerMainGaleria img {
   transition: all 1s;
 }
+
 .containerMainGaleria img:hover {
   transform: scale(1.5, 1.5);
   cursor: pointer;
@@ -167,85 +364,30 @@ nav li a:hover {
 .containerMainDescuentos .col {
   overflow: initial;
 }
+
 .containerMainDescuentos .col .card {
   transition: all 1s;
 }
+
 .containerMainDescuentos .col .card:hover {
   transform: scale(1.1, 1.1);
   cursor: pointer;
   z-index: 999 !important;
 }
+*/
+/*# sourceMappingURL=stylo.css.map */
 
-.pagos {
-  background-image: linear-gradient(to top, rgb(70, 170, 160), rgb(227, 236, 235));
-}
-
-.pagos img {
-  border: 1px solid;
-  color: rgb(70, 170, 160);
-  border-radius: 5px;
+@media screen and  (min-width: 1024px)
+{
+  
 }
 
-.contacto {
-  margin-top: 2px 0px 1px 0px;
+@media screen and (min-width: 767px) and (max-width: 1023px)
+{
+  
 }
 
-.footerHover img {
-  transition: all 1s;
+@media screen and (max-width: 767px) 
+{
+  
 }
-.footerHover img:hover {
-  transform: scale(1.5, 1.5);
-  cursor: pointer;
-}
-
-.tituloh1 {
-  font-size: 5rem;
-  color: rgb(70, 170, 160);
-}
-
-.tituloh2 {
-  font-size: 3rem;
-  color: white;
-}
-
-@media screen and (max-width: 420px) {
-  .positionfixed,
-.tituloh1,
-.tituloh2 {
-    display: none;
-  }
-}
-@media screen and (min-width: 421px) and (max-width: 1500px) {
-  .positionfixed {
-    display: none;
-  }
-}
-.botonContacto {
-  padding: 10px;
-  border-radius: 5px;
-  color: white;
-  background-color: rgb(70, 170, 160);
-  border: 1px solid white;
-  width: auto;
-  font-size: 1.5rem;
-}
-
-.boton2 {
-  padding: 10px;
-  border-radius: 5px;
-  color: white;
-  background-color: rgb(70, 170, 160);
-  border: 1px solid white;
-  width: auto;
-  font-size: 1.5rem;
-}
-
-.boton3 {
-  padding: 10px;
-  border-radius: 5px;
-  color: white;
-  background-color: rgba(245, 44, 8, 0.74);
-  border: 1px solid white;
-  width: auto;
-  font-size: 1.5rem;
-}/*# sourceMappingURL=stylo.css.map */
